@@ -20,4 +20,4 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return 'Hello World! I have been accessed {} times.\n'.format(count)
+    return 'Hello World! I have been accesed {} times.\n'.format(count)
